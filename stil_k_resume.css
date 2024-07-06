@@ -1,0 +1,239 @@
+* {
+    font-family: 'Roboto';
+}
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; -С помощью font-family можно задать семейство шрифтов, которым будет написан текст.      И прописываются название шрифтов   */
+    font-family: 'Roboto' sans-serif;
+    font-size: 16px;   /*шрифт текста */
+    line-height: 20px; /* - растояние между букв в тексте*/
+    font-weight: normal; /* -обьем текста*/
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+
+
+/* .opisanie {
+
+} */
+a {
+ color: black;
+ text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightblue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+.info {
+    margin-bottom: 30px;
+    display: flex;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+@media (max-width: 765px)   {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+.opisanie {
+    margin-left: 20px;
+    /* width: 500px; */
+    
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.7);
+}
+
+.margin1 {
+    margin: 2px;
+    padding: 0px;
+    margin-bottom: 6px;
+}
+.margin2 {
+    margin: 2px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tt {
+    margin: 10px;
+    padding: 0px;
+}
+.prozrach {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: small;
+    opacity: 0.5; 
+}
+.card {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 14px; 
+}
+
+
+
+
+.stil_hobbi {
+    list-style-type: unset;
+    padding: 0 20px;
+}
+
+.stil_hobbi li{
+    margin-bottom: 5px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    }
+
+.bg-red {
+    background: #ffe5e5;
+    margin-bottom: 40px;
+    padding-top: 0;
+}
+
+.opit {
+    width: 100%;
+}
+
+.opit th {
+    text-align: left;
+    padding-bottom: 5px;
+}
+.opit td {
+
+    padding-bottom: 5px;
+}
+
+.opit td:nth-child(2) {
+    color:  brown;
+}
+.opit td:nth-child(3) {
+    color:  burlywood;
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+}
+
+.btn {
+    background: #333;
+    padding: 14px 20px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;      
+    border-radius: 7px;
+    font-family: inherit;
+    }
+
+
+
+.btn:hover {
+    color: lightblue;
+    opacity: 0.8;
+}
+
+.svyaz {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    /* display: flex; */
+}
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 9.1rem;
+    /* width: 40%; */
+    /* width: 50%;  */
+    /* padding: 14px; */
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+    
+}
+
+@media (max-width:765px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        ;
+    }
+}
+
+.form-group {
+    padding: 0;
+    /* width: 100; */
+}
+.form-group label {
+    /* margin: 5px; */
+    display: block;
+    font-size: 14px;
+    color: #86898F;
+    padding-bottom: 12px;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 0 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
+.form-group input {
+    width: 300px;
+}
+
+/* .aliign { 
+    align: left;
+ } */
